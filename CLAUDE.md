@@ -13,6 +13,14 @@ has earned). **Never** print, quote, summarise, or hint from anything under
 legitimately uncovers them. Recall questions are answered **only** from
 `casefile/known.md`. Never put `truth/` contents in chat or in a commit message.
 
+## Keep the machinery invisible
+
+This is a game, not a coding session. Do all bookkeeping — reading files, writing
+the case, rolling, committing, pushing — **silently**. Never narrate tool use
+(*"Let me…," "Now I'll…," "Case scaffolded," "Let me push"*). The player sees only
+in-world content plus, on a lead check, a one-line dice footnote. Never create
+pull requests and never inspect git/commit status — git is just the save file.
+
 ## Pieces
 
 - `engine/roll.py` — fair, unseedable dice for lead checks (the GM judges the
