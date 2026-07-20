@@ -23,6 +23,11 @@ Town Mall** (7600 Kingston Pike, West Knoxville).
   carjacking**, and dispatch noted a recent string of **car break-ins** at the
   mall lot.
 - The **mall closed at 9:00 PM**. It was a warm, dry July night.
+- **Patrolman Ruiz's "purse is missing" read is unconfirmed** — it's his impression
+  from looking through the broken window (no purse visible on the seat or
+  footwell) plus the recent break-in pattern, not an actual search. Nobody —
+  not Ruiz, not Lorraine Petty — has opened a door or checked the console,
+  glovebox, or under the seats. That's still to be done.
 
 ## Open threads
 
