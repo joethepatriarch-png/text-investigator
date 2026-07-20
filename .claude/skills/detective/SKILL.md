@@ -136,6 +136,18 @@ Steps 3–4 (scaffolding and writing the fact file) happen **silently** — no
 commentary, no build log. The player sees nothing of the setup; the first thing
 they read is the opening scene in step 5.
 
+**Every new case is wholly original.** A new-case request (or `/detective new`)
+always means inventing a fresh case from scratch — even if an active case or old
+case folders already sit in `cases/`. Do **not** read, reference, borrow from, or
+lightly re-skin any existing case's `truth/`, cast, victim, location, or
+structure; treat prior cases as unrelated games that, for this purpose, don't
+exist. Even when the player reuses the *same parameters* (same town, same crime
+type), deliberately vary the victim, the cast, the motive, and the shape of the
+mystery from anything recent — same inputs must not yield the same story. (Shared
+*section headers* in the scaffold are just structure; that sameness is fine. The
+*content* must be new.) Only **resume** an existing case when the player
+explicitly asks to continue it.
+
 1. **Gather parameters.** Ask the player for what they want to set; anything they
    leave open, you roll at random. Parameters:
    - **Region** — required. Be specific (town/area, not just a country).
@@ -354,5 +366,7 @@ save mechanism and nothing more — treat it the way a game treats an autosave.
   *player-facing* action, not the secrets.
 - Resuming: on `/detective` with an active case, read `state.json` +
   `casefile/known.md`, give a short "previously…" recap **from the earned file
-  only**, then hand back agency.
+  only**, then hand back agency. But if the active case looks stale or unfamiliar
+  — or the player seems to expect a fresh start — confirm which they want before
+  resuming; never assume a leftover case is the one they mean.
 - Multiple cases can coexist; `state.py active <id>` switches between them.
